@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./css/materialize.css"
+    />
+    <title>Desafio 01 - completo</title>
+  </head>
+  <body>
+    <header class="no-padding">
+      <div class="navbar-fixed">
+        <nav class="navfeature">
+          <div class="container nav-wrapper">
+            <span style="font-weight: 200; font-size: 2rem; text-align: center;">
+              Pesquisa de Usuários
+            </span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="row">
+      <form class="col s8">
+        <div>
+          <div class="input-field col s12">
+            <input
+              type="text"
+              id="userInput"
+              class="validate"
+              autocomplete="off"
+            />
+            <!-- <label for="userInput">Buscar</label> -->
+          </div>
+        </div>
+        <div class="row">
+          <button id="submitButton" class="waves-effect waves-teal btn-flat">
+            Buscar
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- <div class="user-container"> -->
+    <div class="row">
+      <div class="card">
+        <div class="card-content">
+          <h5><span id="statsCount"></span></h5>
+          <div id="tabStatistics"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card">
+        <div class="card-content">
+          <h5><span id="usersCount"></span></h5>
+          <div id="tabUsers"></div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
