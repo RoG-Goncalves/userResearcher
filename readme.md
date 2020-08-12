@@ -2,7 +2,6 @@
 
 Presented as requirement for the conclusion of the first module of the IGTI's Full Stack Developer Bootcamp.
 
-#what it does? 
 # What I learned
 
 * How to consume APIs;
